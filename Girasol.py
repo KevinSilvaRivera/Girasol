@@ -29,7 +29,7 @@ turtle.begin_fill()
 turtle.circle(0)
 turtle.end_fill()
 
-# Código del girasol (el que proporcionaste)
+
 phi = 137.508 * (math.pi / 180.0)
 for i in range(160 + 40):
     r = 4 * math.sqrt(i)
@@ -57,9 +57,10 @@ for i in range(160 + 40):
 
 # Escribe "Te Quiero" en la parte superior del girasol
 turtle.penup()
-turtle.goto(0, 100)  # Ajusta la posición vertical según sea necesario
+turtle.goto(0, 200)  # Ajusta la posición vertical según sea necesario
 turtle.color("Red")  # Color del texto
-turtle.write("Te Quiero", align="center", font=("Arial", 24, "bold"))
+turtle.write("Te amito, dueña de mi corazon<3", align="center", font=("Arial", 24, "bold"))
+
 
 # Oculta el cursor de la tortuga antes de salir
 turtle.hideturtle()
